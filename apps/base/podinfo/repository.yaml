@@ -4,5 +4,6 @@ metadata:
   name: harbor-podinfo
   namespace: podinfo
 spec:
+  type: oci
   interval: 5m
   url: oci://harbor.potus.local/helm/podinfo
